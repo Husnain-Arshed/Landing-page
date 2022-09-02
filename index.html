@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+<h1 id="title" class="text-center">
+Gaming Survey Form
+</h1>
+<p id="description" class="text-center">
+Thank you for taking the time to help us improve the platform
+  </p>
+</header>
+
+<content>
+<form action="#" id="survey-form">
+  
+<label id="name-label">Name</label><input type="text" placeholder=" Enter your name" id="name" required class="style">
+  
+<label id="email-label">Email</label><input type="email" placeholder=" Enter your Email" id="email" required class="style">
+  
+<label id="number-label">Age(optional)</label><input type="number" min="10" max="100" placeholder=" Age" id="number" class="style">
+  
+<label>Which option best describes your current role?</label><select id="dropdown" class="style">
+      <option>Select current role</option>
+      <option>Full time job</option>
+      <option>Full time Learner</option>
+      <option>Prefer not to say</option>
+      <option>Other</option>
+  </select>
+  <label>Would you recommend freeCodeCamp to a friend?</label>
+  <label><input type="radio" name="quest" value="ans-1"> Definitely</label>
+    <label><input type="radio" name="quest" value="ans-1"> Maybe</label>
+      <label><input type="radio" name="quest" value="ans-1"> Not sure</label>
+  <label>What would you like to see improved? (Check all that apply)
+</label>
+<label><input type="checkbox" value="top"> Toplaners</label>
+<label><input type="checkbox" value="mid"> Midlaners</label>
+<label><input type="checkbox" value="jung"> Junglers</label>
+<label><input type="checkbox" value="adc"> Adc</label>
+<label><input type="checkbox" value="jung"> Supports</label>
+<label>Any comments or suggestions?</label>
+<textarea rows="10" placeholder="Enter your comment here..."></textarea>
+
+<input type="submit" id="submit">
+</form>
+</content>
+
+</body>
