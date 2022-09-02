@@ -61,14 +61,13 @@ input[type="submit"]
 {
   color: white;
   background-color: rgb(52, 200, 100);
-  width: 100%;
+  width: 96%;  /*don't know why can't go with 100%*/
   margin-top: 10px;
   padding: 8px 0px;
   border-radius: 3px;
   font-family: helvetica;
   font-size: 14.5px;
 }
-
 
 
 
